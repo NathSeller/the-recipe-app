@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/http://NathSeller.github.io/the-recipe-app/static/css/main.afbfb6dc.css",
+    "main.js": "/http://NathSeller.github.io/the-recipe-app/static/js/main.08150349.js",
+    "index.html": "/http://NathSeller.github.io/the-recipe-app/index.html",
+    "main.afbfb6dc.css.map": "/http://NathSeller.github.io/the-recipe-app/static/css/main.afbfb6dc.css.map",
+    "main.08150349.js.map": "/http://NathSeller.github.io/the-recipe-app/static/js/main.08150349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afbfb6dc.css",
+    "static/js/main.08150349.js"
+  ]
+}
