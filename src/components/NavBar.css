@@ -14,8 +14,28 @@
     text-decoration: none;
     color: royalblue;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .link {
     text-decoration: none;
+    display: flex;
 }
+
+.logos {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .logos {
+        width: 2rem;
+        height: 2rem;
+    }
+    .Title {
+        margin-right: .5rem;
+        margin-left: .5rem;
+        font-size: 1.25rem;
+    }
+  }

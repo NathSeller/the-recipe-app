@@ -25,7 +25,8 @@ function Searched(props) {
 
   return (
     <div className='box'>
-      {typed.map((item) => {
+      {typed === null ? (<h1>Sorry, no results found! Please try something else!</h1>) :
+      typed.map(item => {
         return(
           <div  key={item.idMeal}>
             <div className='card'>
@@ -37,7 +38,8 @@ function Searched(props) {
           
           </div>
         )
-      })}
+      })
+    }-
     </div>
   )
 }
