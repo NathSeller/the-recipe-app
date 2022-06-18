@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.card {
+    margin: 3rem;
+}
+
+.pic {
+    border-radius: 1rem;
+    justify-content: center;
+    margin: .25rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.writing {
+    color: royalblue;
+    align-items: center;
+    height: 2rem;
+    text-decoration: none;
+}
+
+.linking {
+    text-decoration: none;
+    text-align: center;
+    width: 12rem;
+    height: 20em;
+    background-color: darkseagreen;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}

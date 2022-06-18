@@ -1,0 +1,49 @@
+.titles {
+    text-align: center;
+    width: 20rem;
+    margin: 2rem;
+    background-color: darkseagreen;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.meal {
+    color: royalblue;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+}
+
+.images {
+    overflow: visible;
+    margin-bottom: .5rem;
+}
+
+.img {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 2rem;
+    min-height: 2rem;
+}
+
+.popular {
+    text-decoration: none;
+}
+
+.shuffle {
+    background-color: lightseagreen;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+}
+
+.shuffle:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}

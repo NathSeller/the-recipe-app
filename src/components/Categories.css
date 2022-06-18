@@ -1,0 +1,43 @@
+.categories {
+    margin-top: 25px;
+}
+
+.text {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: .75rem;
+    margin-left: .75rem;
+    justify-content: space-around;
+}
+
+.text:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.image {
+    width: 5.6rem;
+    height: 3.5rem;
+}
+
+.category {
+    color: tomato;
+    font-weight: 700;
+    margin-bottom: .25rem;
+}
+
+.links {
+    text-decoration: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .image {
+        width: 4.2rem;
+        height: 2.625rem;
+        margin: .25rem;
+    }
+    .text {
+        font-size: 15px;
+        margin-right: .5rem;
+    }
+}
